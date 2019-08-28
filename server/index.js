@@ -28,6 +28,5 @@ app.get("/Data", (req, res) => {
 // app.post("/shujja",(req, res)=>{
 //   let data
 // })
-
-
-app.listen(3000, () => console.log("server is running on 3000"));
+const PORT = process.env.PORT || 3000;
+app.listen(PORT, () => console.log("server is running on port" + PORT));
