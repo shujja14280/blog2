@@ -30,7 +30,7 @@
     "webpack-dev-server": "^2.11.3"
   },
   "dependencies": {
-    "axios": "^0.18.0",
+    "axios": "^0.21.1",
     "express": "^4.16.4",
     "mongoose": "^5.5.10",
     "nodemon": "^1.19.0",
